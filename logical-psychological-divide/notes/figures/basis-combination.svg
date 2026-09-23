@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Psychological states as combinations of a logical basis</title>
+  <desc id="desc">Two fixed teal axes labeled stable rule A and stable rule B. A coral arrow is their weighted combination. Dashed gray lines mark the coefficients.</desc>
+  <rect width="720" height="480" fill="#141414" rx="8"/>
+  <rect x="168" y="22" width="384" height="28" rx="6" fill="#2a2a2a"/>
+  <text x="360" y="41" text-anchor="middle" fill="#d4d4d4" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13">Psychological states as combinations of a logical basis</text>
+
+  <g transform="translate(130,70)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- axes -->
+    <line x1="80" y1="300" x2="80" y2="36" stroke="#2a9d8f" stroke-width="3.5"/>
+    <polygon points="80,22 72,42 88,42" fill="#2a9d8f" stroke="none"/>
+    <line x1="80" y1="300" x2="430" y2="300" stroke="#2a9d8f" stroke-width="3.5"/>
+    <polygon points="446,300 426,292 426,308" fill="#2a9d8f" stroke="none"/>
+
+    <!-- projections -->
+    <line x1="80" y1="132" x2="286" y2="132" stroke="#6b6b6b" stroke-width="1.5" stroke-dasharray="5 6"/>
+    <line x1="286" y1="132" x2="286" y2="300" stroke="#6b6b6b" stroke-width="1.5" stroke-dasharray="5 6"/>
+
+    <!-- resultant -->
+    <line x1="80" y1="300" x2="274" y2="144" stroke="#e07a5f" stroke-width="3.5"/>
+    <polygon points="286,132 264,144 280,156" fill="#e07a5f" stroke="none"/>
+
+    <circle cx="80" cy="300" r="6" fill="#9a9a9a" stroke="#141414" stroke-width="2"/>
+  </g>
+
+  <text x="360" y="92" text-anchor="middle" fill="#c8c8c8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15">stable rule B (logical)</text>
+  <text x="360" y="408" text-anchor="middle" fill="#c8c8c8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15">stable rule A (logical)</text>
+  <text x="360" y="448" text-anchor="middle" fill="#9a9a9a" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15">psychological state = combination of A and B</text>
+</svg>

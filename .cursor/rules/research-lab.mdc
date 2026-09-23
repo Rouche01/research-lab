@@ -1,0 +1,34 @@
+---
+description: Thread file roles in research-lab — snapshot vs log vs refs vs trail
+alwaysApply: true
+---
+
+# Research-lab threads
+
+One folder per idea. Link related threads; do not merge them (`fep-paper` ↔ `voltmem-extensions` ↔ `licensing-collective-selves`).
+
+| File | Role | Edit rule |
+|---|---|---|
+| `README.md` | Rewriteable snapshot | Current state only. Empty `Core question / thesis` means formulate — do not invent a thesis. |
+| `log.md` | Dated journal | Append; never rewrite history. |
+| `refs.md` | Informal sources | Full citation only if it graduates to a paper. |
+| `notes/` | Trail, drafts, figures | Durable working prose when the root would get noisy. |
+| `scratch/` | Experiments | Disposable; not the record. |
+
+Root [README.md](README.md) is the lab index. Idea READMEs are snapshots.
+
+## Do not mix roles
+
+- Dated moves go in `log.md`, not the snapshot.
+- Mechanism, mapping, and thesis live in the snapshot and/or `notes/` — not in the log or `refs.md`.
+- `refs.md` lists sources; it is not the argument.
+
+```markdown
+# Bad — diary in the snapshot
+## 2026-09-22
+- Moved drafts to notes/
+
+# Good — rewrite snapshot; append log
+## Core question / thesis
+Logical vs psychological novelty are two exits of one compression process.
+```
