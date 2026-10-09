@@ -11,3 +11,8 @@ Dated, running journal. Append, don't edit history.
 - Added [notes/tycs-study-track.md](./notes/tycs-study-track.md): TYCS → this thread curriculum (compilers + discrete math + Dafny first; OS/net/DB/distributed deferred). Next personal step: mark “Where you are” and continue Phase A unless already past interpreters.
 - Clarified path: studying via **CS Primer**; rewritten study track around Primer courses. Critical gaps to side-load: *Crafting Interpreters* + discrete proofs + Dafny (no full compilers course on Primer’s public catalog yet).
 - Linked **Relay OS**: intent→manifest self-orchestration wants throwaway generated bodies; human surface = intent + manifest + HITL, not the glue code. Near-term = sandbox/capabilities; formal vericoding = later for high-stakes stages.
+
+## 2026-10-09
+
+- Opt-in NotebookLM as a **reading room** for this thread only (not one notebook per lab idea by default). Lab folder stays source of truth; notebook = Q&A over sources.
+- Added [notes/notebooklm-hinge.md](./notes/notebooklm-hinge.md) + Reading room stub in `refs.md`. Seed create with Djinnlang arXiv URL; paste hinge after; drop notebook URL back into `refs.md` when you have it.
