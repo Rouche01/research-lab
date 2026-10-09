@@ -10,6 +10,7 @@ Personal playground for research threads, technical articles, proofs-of-concept,
 | [logical-psychological-divide](./logical-psychological-divide) | active | |
 | [voltmem-extensions](./voltmem-extensions) | active | Experimental extensions to [VoltMem](https://github.com/Rouche01) not yet ready for the main repo |
 | [fep-paper](./fep-paper) | active | FEP / Markov blankets / hyperreal cultural phenomena / network bifurcation — leaning toward a blog post over a formal paper |
+| [spec-owned-vericoding](./spec-owned-vericoding) | active | Human-owned specs/laws; disposable AI bodies; checkable mid-IR vs low-level mush |
 
 Update the status column as things move: `dormant` → `active` → `graduated` (link to the new standalone repo once it's split out).
 
