@@ -16,3 +16,9 @@ Dated, running journal. Append, don't edit history.
 
 - Opt-in NotebookLM as a **reading room** for this thread only (not one notebook per lab idea by default). Lab folder stays source of truth; notebook = Q&A over sources.
 - Added [notes/notebooklm-hinge.md](./notes/notebooklm-hinge.md) + Reading room stub in `refs.md`. Seed create with Djinnlang arXiv URL; paste hinge after; drop notebook URL back into `refs.md` when you have it.
+
+## 2026-10-10
+
+- Started Dafny practice under [scratch/dafny-explore/](./scratch/dafny-explore/): `contract.dfy` as human-owned spec, `dafny_runner.py` as LLM → extract → `dafny verify` retry loop, local `.venv` + `requirements.txt`.
+- Runner gotchas logged in code: success line is on stdout (not stderr); stub bodies need `expect false` / `assume {:axiom} false` (empty `{}` fails postconditions); system prompt forbids axiom/assume bypasses for real practice.
+- Added `scratch/dafny-explore/.gitignore` so `.venv/`, `__pycache__/`, and `.env*` stay out of git.
